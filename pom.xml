@@ -20,11 +20,11 @@
 	<properties>
 		<java.version>11</java.version>
 		<spring-cloud.version>Hoxton.SR4</spring-cloud.version>
-		<docker.image.prefix>sfgbeerworks</docker.image.prefix>
+		<docker.image.prefix>sadatmalik</docker.image.prefix>
 		<docker.image.name>${project.artifactId}</docker.image.name>
 	</properties>
-	<dependencies>
 
+	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-gateway</artifactId>
